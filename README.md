@@ -96,6 +96,12 @@ mvn exec:java "-Dexec.mainClass=tn.utm.kafka.ChiffreAffairesParVille"
 mvn exec:java "-Dexec.mainClass=tn.utm.kafka.DetecteurAnomalies"
 ```
 
+## Tests simples
+
+✔ Envoi de messages en continu (simulation de caisses)
+✔ Calcul du chiffre d’affaires en temps réel
+✔ Détection des retours supérieurs à 200 DT
+
 ## Tests avancés
 
 ### Rebalance avec 3 instances ChiffreAffaires
@@ -133,3 +139,7 @@ Types : VENTE (70%), RETOUR (10%), OUVERTURE (20%)
 | TimeoutException | Vérifiez que le broker tourne avec `jps` |
 | Consumer ne lit rien | Vérifiez le group.id et utilisez `--from-beginning` |
 | Broker ne démarre pas | Supprimez `C:\kafka-data\logs` et reformatez |
+
+## Réalisé par
+
+EMNA KALLEL dans le cadre du TP Apache Kafka — Pipeline de logs en temps réel.
