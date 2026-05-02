@@ -1,0 +1,5 @@
+tn\utm\kafka\App.class
+tn\utm\kafka\DetecteurAnomalies.class
+tn\utm\kafka\SimulateurCaisse.class
+tn\utm\kafka\ChiffreAffairesParVille.class
+tn\utm\kafka\EvenementPOS.class
