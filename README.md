@@ -48,6 +48,7 @@ Ce projet implémente un pipeline de traitement de données en temps réel basé
 pos-pipeline/
 ├── pom.xml
 ├── README.md
+├── target/
 └── src/
     └── main/
         └── java/
