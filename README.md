@@ -97,11 +97,11 @@ mvn exec:java "-Dexec.mainClass=tn.utm.kafka.DetecteurAnomalies"
 ```
 
 ## Tests simples
-
+```
 ✔ Envoi de messages en continu (simulation de caisses)
 ✔ Calcul du chiffre d’affaires en temps réel
 ✔ Détection des retours supérieurs à 200 DT
-
+```
 ## Tests avancés
 
 ### Rebalance avec 3 instances ChiffreAffaires
