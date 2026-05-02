@@ -142,4 +142,4 @@ Types : VENTE (70%), RETOUR (10%), OUVERTURE (20%)
 
 ## Réalisé par
 
-EMNA KALLEL dans le cadre du TP Apache Kafka — Pipeline de logs en temps réel.
+EMNA KALLEL 
